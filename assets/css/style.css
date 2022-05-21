@@ -2,7 +2,7 @@
 
 :root{
     --header-height:3rem ;
-    --hue-color:67 ;
+    --hue-color: 85;
 
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second:hsl(var(--hue-color), 50%, 61%) ;
@@ -178,7 +178,7 @@ img{
         display: block;
     }
 }
-
+git
 .nav_list{
     grid-template-columns: repeat(6, 4fr);
     gap: 2rem;
@@ -394,6 +394,8 @@ a:hover{
 }
 .testimonial_container{
     width: 85%;
+    height: 60vh;
+    overflow: scroll;
 }
 .testimonial_container:hover{
    background-color: rgb(250, 255, 240);
