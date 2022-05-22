@@ -72,7 +72,29 @@ body{
     font-size: var(--normal-font-size);
     background-image: linear-gradient(white, black);
     color: var(--text-color);
+    text-align: center;
 
+}
+.rrwe{
+    background-color: transparent;
+    border: 5px dotted black;
+    border-radius: 53%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 45vh;
+    animation: cicle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cicle{
+    50%{transform: rotateZ(40deg); border-color: rgb(103, 103, 102);}
+    75%{transform: rotateZ(90deg);border-color: rgb(154, 153, 152)}
+    100%{transform: rotateZ(60deg);border-color: rgb(211, 210, 209)}
+}
+.spo{
+    font-size: 20px;
+    color: antiquewhite;
 }
 
 h1,h2,h3,h4{
