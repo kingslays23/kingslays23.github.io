@@ -226,12 +226,12 @@ img{
         border-color: var(--first-color);
         background-color: var(--first-color);
         animation: translate;
-        animation-duration: 18s;
+        animation-duration: 21s;
         animation-iteration-count: infinite;
     }
 }
 @keyframes translate{
-    50%{transform: translateX(-260px);}
+    50%{transform: translateX(-300px);}
 }
 .show_menu{
   bottom: 0;
